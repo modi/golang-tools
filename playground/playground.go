@@ -17,7 +17,7 @@ import (
 	"time"
 )
 
-const baseURL = "https://play.golang.org"
+const baseURL = "http://play.golang.test:8072"
 
 func init() {
 	http.Handle("/compile", Proxy())
